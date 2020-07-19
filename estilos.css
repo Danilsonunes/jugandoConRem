@@ -1,0 +1,317 @@
+html {
+  font-size: 16px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header {
+  width: 100vw;
+  height: 4.18rem;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 12.5rem;
+}
+header img {
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 50%;
+  margin-left: 3.12rem;
+  object-fit: cover;
+}
+header a {
+  font-size: 0.8rem;
+  color: #fff;
+  margin-right: 1.31rem;
+}
+.cover {
+  position: relative;
+  width: 100vw;
+  height: 19.37rem;
+  background: url(img/banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover .img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  padding: 0 20.25rem;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+}
+.img_portada img {
+  position: relative;
+  width: 11.5rem;
+  height: 11.5rem;
+  border-radius: 50%;
+  border: solid 0.06rem black;
+  margin-top: -5rem;
+  object-fit: cover;
+}
+.redes_sociales {
+  padding: 0 3.12rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.fa.fa-github,
+.fa.fa-linkedin {
+  font-size: 2.12rem;
+  color: #707070;
+}
+section {
+  margin-left: 3.12rem;
+}
+section h1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #707070;
+  opacity: 1;
+}
+section span {
+  font-size: 2.25rem;
+  font-weight: 100;
+  font-style: italic;
+  letter-spacing: 0;
+  color: #707070;
+  opacity: 1;
+}
+section h3 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: #707070;
+  opacity: 1;
+}
+section p {
+  font-size: 1.31rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #707070;
+  opacity: 1;
+  margin-bottom: 3.12rem;
+}
+article {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.formacion {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 20.6rem;
+  background: #dedede;
+  opacity: 1;
+  padding-right: 31.25rem;
+}
+article .formacion h1 {
+  margin: 1.31rem 0 1.31rem 19.18rem;
+  text-align: left;
+  font-size: 3.75rem;
+  font-weight: 100;
+  letter-spacing: 0;
+  color: #707070;
+  opacity: 1;
+}
+
+.invento {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 1.31rem 0 1.31rem 19.5rem;
+  border-left: 0.31rem solid black;
+}
+.invento span {
+  margin-left: 0.62rem;
+}
+.experiencia {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  /* height: 22.06rem; */
+  background: #434343;
+  opacity: 1;
+  padding-right: 31.25rem;
+}
+article .experiencia h1 {
+  margin: 1.31rem 0 1.31rem 19.18rem;
+  text-align: left;
+  font-size: 3.75rem;
+  font-weight: 100;
+  letter-spacing: 0;
+  color: #999999;
+  opacity: 1;
+}
+.invento2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 1.31rem 0 1.31rem 19.5rem;
+  border-left: 0.31rem solid #fff;
+}
+.invento2 span {
+  margin-left: 0.6rem;
+}
+.projetos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 19.18rem;
+  padding-right: 3.12rem;
+  /* width: 100vw; */
+  height: auto;
+  background: #f2f2f2;
+  opacity: 1;
+}
+.cards {
+  margin-left: 0.93rem;
+  margin-top: 1.31rem;
+  display: flex;
+  flex-direction: column;
+  height: 20.93rem;
+  width: 16.25rem;
+  background-color: #ffffff;
+  align-items: center;
+}
+.cards img {
+  margin-top: 0.93rem;
+  height: 8.06rem;
+  width: 14.5rem;
+}
+
+.cards h3 {
+  margin: 0.5rem 0;
+  text-align: left;
+  width: 90%;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  margin: 0.93rem 1.87rem;
+}
+.btn button {
+  margin: 0 0.62rem 1.18rem;
+  background-color: #999999;
+  color: #f2f2f2;
+  padding: 0.12rem;
+  height: 2.12rem;
+  width: 6.87rem;
+  font-size: 1em;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+}
+.cards span {
+  text-align: left;
+  font-size: 0.81rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #707070;
+  opacity: 1;
+  margin: 0 0.93rem 1rem;
+}
+.arreglar {
+  width: 100vw;
+  padding: 1.31rem 0 1.31rem 19.18rem;
+  background-color: #f2f2f2;
+}
+.arreglar h1 {
+  text-align: left;
+  font-size: 3.75rem;
+  font-weight: 100;
+  letter-spacing: 0;
+  color: #999999;
+  opacity: 1;
+}
+form {
+  margin-top: 1.31rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 25rem;
+}
+footer {
+  padding: 6.25rem 6.25rem 0;
+  background-color: #000;
+}
+.container {
+  justify-content: space-around;
+
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.loco {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.loco h3 {
+  margin-top: 2.12rem;
+  text-align: left;
+  font-size: 3.75rem;
+  font-weight: 100;
+  letter-spacing: 0;
+  color: #ffffff;
+  opacity: 1;
+}
+form input,
+textarea {
+  width: 24.87rem;
+  height: 2.12rem;
+  text-align: left;
+}
+form button {
+  align-self: center;
+  margin-right: 17.5rem;
+  margin-top: 1.25rem;
+}
+.chupalo {
+  width: auto;
+  height: auto;
+}
+
+/*------------media query-----------------*/
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 10px;
+  }
+  .fa.fa-linkedin {
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 660px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (max-width: 510px) {
+  html {
+    font-size: 5px;
+  }
+}
